@@ -84,6 +84,22 @@ Random credentials are entered ✅
 
 Browser exits successfully ✅
 
+### Screenshots ✨ - 
+
+### Login page 💫
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-12 163821" src="https://github.com/user-attachments/assets/0b627bc0-8862-4d01-b260-bdab9d4728cb" />
+
+### * Automation login🌟
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-12 164114" src="https://github.com/user-attachments/assets/58472fd6-3901-4ed0-8fb2-7ed24526e3c1" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-12 165925" src="https://github.com/user-attachments/assets/094b3f2f-4966-402b-b408-9faa8b483177" />
+
+ ### * Calender page in laravel 🖼️
+
+<img width="1920" height="1080" alt="Screenshot 2026-01-13 143620" src="https://github.com/user-attachments/assets/14f89240-bedd-4631-8a5d-431f1d710deb" />
+
 ## 📌Task 3: HTML Calendar Page Integration into Laravel
 
 * 1. Extracted HTML template
