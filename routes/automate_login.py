@@ -56,5 +56,6 @@ try:
     driver.save_screenshot("login_page_screenshot.png")
     print("Saved screenshot: login_page_screenshot.png")
     time.sleep(1)
+    
 finally:
     driver.quit()
