@@ -3,11 +3,12 @@
 ## This repository contains the completed tasks for the Hunt Digital Media assignment 🌟,
 
  ## 📌 Task 1: Laravel Project Setup & Login Page
-### 1. Running a Laravel project locally
+ 
+* 1. Running a Laravel project locally
 
-### 2. Automating the Laravel login page using Python Selenium
+* 2. Automating the Laravel login page using Python Selenium
 
-### 3. Integrating a static HTML calendar page into Laravel via routing
+* 3. Integrating a static HTML calendar page into Laravel via routing
 
    * Connected MySQL database
 
@@ -50,13 +51,13 @@ php artisan serve ▶︎
 
 ## 📌 Task 2: Python Selenium Automation
 
-* Created a Python Selenium script
+* 1. Created a Python Selenium script
 
-* Opened the Laravel login page
+* 2. Opened the Laravel login page
 
-* Filled email and password fields with random values
+* 3. Filled email and password fields with random values
 
-* Closed the browser automatically
+* 4. Closed the browser automatically
   
 ## 📦▶ How to Run
 
@@ -82,3 +83,66 @@ Browser opens login page ✅
 Random credentials are entered ✅
 
 Browser exits successfully ✅
+
+## 📌Task 3: HTML Calendar Page Integration into Laravel
+
+* 1. Extracted HTML template
+
+* 2. Used app-calendar.html
+
+* 3. Converted it to Laravel Blade
+
+* 4. Fixed asset paths using {{ asset() }}
+
+* 5. Added a Laravel route /html-page
+
+* File Location
+
+```sh
+resources/views/app-calendar.blade.php 📂
+   ```
+
+* Route Add
+
+```sh
+Route::get('/html-page', function () {
+    return view('app-calendar');
+});
+   ```
+* Check out live page -
+  
+```sh
+http://127.0.0.1:8000/html-page ✔️
+   ```
+
+🛠 Technologies Used
+
+* Laravel (PHP)
+
+* MySQL
+
+* Python
+
+* Selenium WebDriver
+
+* HTML / CSS / JavaScript
+
+* Bootstrap Admin Template
+
+### ✅ Assignment Status
+
+✔ Laravel setup completed
+
+✔ Selenium automation completed
+
+✔ HTML page successfully integrated
+
+✔ All tasks working locally
+
+### 📎 Notes
+
+* Laravel server must be running before executing Selenium script
+
+* MySQL and Apache should be running (XAMPP)
+
+* Assets are served from Laravel public/ directory
