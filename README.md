@@ -42,3 +42,6 @@ php artisan migrate 🔒
 ```sh
 php artisan serve ▶︎
    ```
+### Open Project in Browser -
+
+ You’ll see:- http://127.0.0.1:8000 🎉
