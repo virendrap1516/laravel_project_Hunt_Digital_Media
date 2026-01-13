@@ -146,3 +146,7 @@ http://127.0.0.1:8000/html-page ✔️
 * MySQL and Apache should be running (XAMPP)
 
 * Assets are served from Laravel public/ directory
+  
+_Made with ❤️ by [Virendra Pawar](https://github.com/virendrap1516)_
+
+Email: Virendrapawar47@gmail.com 📧
